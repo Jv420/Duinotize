@@ -13,13 +13,13 @@ Next make a script element add pass in arguments:
 ```html
 <script>
   duinotize.start({
-    username: "nooz",
+    username: "jpsdev",
     rigid: "PersonalSite"
   });
 </script>
 ```
 
-Make sure to replace `nooz` with your DUCO wallet username and `PersonalSite` with the name you want miners to show up as in the web wallet.
+Make sure to replace `jpsdev` with your DUCO wallet username and `PersonalSite` with the name you want miners to show up as in the web wallet.
 
 If for whatever reason you'd like to kill all running workers (e.g. for a "stop mining" button), call the `duinotize.terminate()` function 
 
@@ -34,7 +34,7 @@ For example, a custom snippet in your website might look like this:
 <script src="https://NoozAbooz.github.io/Duinotize/duinotize.js" defer></script>
 <script>
   duinotize.start({
-    username: "coinburn",
+    username: "jpsdev",
     rigid: "GameSite",
     difficulty: "LOW",
     threads: 2,
