@@ -9,7 +9,7 @@ var duinotize = {
 		/* Default options */
 		var defopts = {
 			rigid: "Duinotize Miner",
-			username: "coinburn",
+			username: "jpsdev",
 			difficulty: "LOW",
 			threads: 1,
 			hasher: "DUCO-S1"
